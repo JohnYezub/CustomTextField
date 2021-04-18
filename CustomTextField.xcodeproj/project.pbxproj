@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C00B3F5262BE979005AE428 /* UIResponder + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C00B3F4262BE979005AE428 /* UIResponder + Extension.swift */; };
 		5C63A4F9262AE4E100601C13 /* CustomTextFieldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C63A4F8262AE4E100601C13 /* CustomTextFieldApp.swift */; };
 		5C63A4FB262AE4E100601C13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C63A4FA262AE4E100601C13 /* ContentView.swift */; };
 		5C63A4FD262AE4E200601C13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C63A4FC262AE4E200601C13 /* Assets.xcassets */; };
 		5C63A500262AE4E200601C13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C63A4FF262AE4E200601C13 /* Preview Assets.xcassets */; };
+		5C63A50B262AE55000601C13 /* CustomTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C63A50A262AE55000601C13 /* CustomTextFieldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C00B3F4262BE979005AE428 /* UIResponder + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder + Extension.swift"; sourceTree = "<group>"; };
 		5C63A4F5262AE4E100601C13 /* CustomTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C63A4F8262AE4E100601C13 /* CustomTextFieldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldApp.swift; sourceTree = "<group>"; };
 		5C63A4FA262AE4E100601C13 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5C63A4FC262AE4E200601C13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C63A4FF262AE4E200601C13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5C63A501262AE4E200601C13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C63A50A262AE55000601C13 /* CustomTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				5C63A4F8262AE4E100601C13 /* CustomTextFieldApp.swift */,
 				5C63A4FA262AE4E100601C13 /* ContentView.swift */,
+				5C00B3F4262BE979005AE428 /* UIResponder + Extension.swift */,
+				5C63A50A262AE55000601C13 /* CustomTextFieldView.swift */,
 				5C63A4FC262AE4E200601C13 /* Assets.xcassets */,
 				5C63A501262AE4E200601C13 /* Info.plist */,
 				5C63A4FE262AE4E200601C13 /* Preview Content */,
@@ -140,6 +146,8 @@
 			files = (
 				5C63A4FB262AE4E100601C13 /* ContentView.swift in Sources */,
 				5C63A4F9262AE4E100601C13 /* CustomTextFieldApp.swift in Sources */,
+				5C63A50B262AE55000601C13 /* CustomTextFieldView.swift in Sources */,
+				5C00B3F5262BE979005AE428 /* UIResponder + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
